@@ -1,3 +1,8 @@
+![OpenWrt](https://img.shields.io/badge/OpenWrt-2299CC?style=for-the-badge&logo=openwrt&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 # OpenWrt Visual Upgrade
 
 A simple shell script to perform sequential package upgrades on OpenWrt with a visual progress bar. 
