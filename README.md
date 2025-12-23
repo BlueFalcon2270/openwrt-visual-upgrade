@@ -13,7 +13,7 @@ Standard OpenWrt upgrades can be silent or flood the terminal. This script upgra
 You can run this directly on your router without downloading files by copying and pasting this command:
 
 ```bash
-wget -O upgrade.sh https://raw.githubusercontent.com/BlueFalcon2270/openwrt-visual-upgrade/main/openwrt-upgrade.sh && chmod +x openwrt-upgrade.sh.sh && ./openwrt-upgrade.sh.sh
+wget -O upgrade.sh https://raw.githubusercontent.com/BlueFalcon2270/openwrt-visual-upgrade/main/openwrt-upgrade.sh && chmod +x openwrt-upgrade.sh && ./openwrt-upgrade.sh
 ```
 <br><br>
 
