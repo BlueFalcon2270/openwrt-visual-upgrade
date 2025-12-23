@@ -14,7 +14,7 @@ Copy and run this single command:
 ```bash
 wget -O - https://raw.githubusercontent.com/BlueFalcon2270/openwrt-visual-upgrade/main/upgrade.sh | sh
 ```
-<br><br>
+<br>
 
 ## 🌟 Features
 * **Visual Progress:** Displays a clear `[Count/Total]` status bar so you know exactly how long the process will take.
