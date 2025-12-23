@@ -13,7 +13,7 @@ Standard OpenWrt upgrades can be silent or flood the terminal. This script upgra
 You can run this directly on your router without downloading files by copying and pasting this command:
 
 ```bash
-opkg update && total=$(opkg list-upgradable | wc -l); count=0; while [ "$(opkg list-upgradable)" ]; do pkg=$(opkg list-upgradable | head -n1 | cut -f1 -d' '); count=$((count+1)); percent=$((count * 100 / total)); bar=$(printf '%0.s#' $(seq 1 $((percent/5)))); printf "\r[%3d%%] [%-20s] %d/%d - %s" "$percent" "$bar" "$count" "$total" "$pkg"; opkg upgrade "$pkg" >/dev/null 2>&1; done; echo
+wget -O upgrade.sh [https://raw.githubusercontent.com/BlueFalcon2270/openwrt-visual-upgrade/main/openwrt-upgrade.sh](https://raw.githubusercontent.com/BlueFalcon2270/openwrt-visual-upgrade/main/openwrt-upgrade.sh) && chmod +x upgrade.sh && ./upgrade.sh
 ```
 <br><br>
 
