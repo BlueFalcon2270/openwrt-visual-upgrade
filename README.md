@@ -11,10 +11,11 @@
 
 <br />
 
-</div>
+
 A smart shell script to perform sequential package upgrades on OpenWrt with a visual progress bar.
 
 Unlike standard bulk updaters, this script re-evaluates dependencies after every installation and automatically skips kernel modules to prevent system instability.
+</div>
 <br><br>
 
 ## Quick Run
