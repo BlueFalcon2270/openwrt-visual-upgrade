@@ -1,9 +1,13 @@
-![OpenWrt](https://img.shields.io/badge/OpenWrt-2299CC?style=for-the-badge&logo=openwrt&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<div align="center">
 
-# OpenWrt Visual & Safe Upgrade
+# 🛡️ OpenWrt Visual Upgrade
+
+**The safe, smart, and beautiful way to update your router.**
+
+[![OpenWrt](https://img.shields.io/badge/Platform-OpenWrt-2ca5e0?style=for-the-badge&logo=openwrt)](https://openwrt.org/)
+[![Language](https://img.shields.io/badge/Written%20in-Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/BlueFalcon2270/openwrt-visual-upgrade/graphs/commit-activity)
 A smart shell script to perform sequential package upgrades on OpenWrt with a visual progress bar.
 
 Unlike standard bulk updaters, this script re-evaluates dependencies after every installation and automatically skips kernel modules to prevent system instability.
