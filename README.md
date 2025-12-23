@@ -10,12 +10,11 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/BlueFalcon2270/openwrt-visual-upgrade/graphs/commit-activity)
 
 <br />
-
+</div>
 
 A smart shell script to perform sequential package upgrades on OpenWrt with a visual progress bar.
 
 Unlike standard bulk updaters, this script re-evaluates dependencies after every installation and automatically skips kernel modules to prevent system instability.
-</div>
 <br><br>
 
 ## Quick Run
