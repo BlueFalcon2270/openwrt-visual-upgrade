@@ -16,5 +16,4 @@ opkg update && total=$(opkg list-upgradable | wc -l); count=0; while [ "$(opkg l
 * **Visual Feedback:** Specific progress bar (0-100%).
 * **Sequential Processing:** Upgrades one package at a time to maintain stability.
 * **Clean Output:** Hides the verbose output of `opkg` unless an error occurs.
-
-
+<br><br>
